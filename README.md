@@ -3,8 +3,9 @@
 ### Option 2 : Run it locally on your machine <br/>
 #### Note: By default the configuration are to run on the SauceLabs Cloud
 ### ------------------------------------------------------
-
+## ===================================================================================================== <br/>
 ### OPTION 1: How to execute the test on SauceLabs Cloud <br/>
+## ===================================================================================================== <br/>
 
 #### 1. On command prompt: git clone git@github.com:hp-tech101/qloyalcodetest-mobile-bdd.git <br/>
 #### 2. Enter Passphrase: Success17$$18 <br/>
@@ -32,4 +33,13 @@
         a. Change the desiredcapability configuration in src\resources\config\desiredcapabilities\capability.xml under <sauce> ... </sauce>
         b. You may refer to https://wiki.saucelabs.com/display/DOCS/Platform+Configurator#/
        
-          
+## ===================================================================================================== <br/>     
+### OPTION 1: How to execute the test on SauceLabs Cloud <br/>
+## ===================================================================================================== <br/>
+
+#### 1. On command prompt: git clone git@github.com:hp-tech101/qloyalcodetest-mobile-bdd.git <br/>
+#### 2. Enter Passphrase: Success17$$18 <br/>
+#### 3. cd qloyalcodetest-mobile-bdd <br/>
+#### 4. Execute following command in that order: <br/>
+       a. command 1> mvn clean 
+       b. command 2> mvn compile 
