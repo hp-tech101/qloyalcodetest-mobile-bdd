@@ -23,13 +23,13 @@
 #### 1.2 Under each job , use the following tabs
            a. 'Watch' Tab contains the recording of the execution. Also this tab can be used to watch the test execution live (i.e. right after you have entered 'mvn test' from your terminal [Step 4.c above]) 
            b. 'Logs' Tab contains a drop down , choose 'appium-server.log' to view the server logs
-
-#### a. SauceLab Url  : https://saucelabs.com/beta/login
-#### b. SauceLab User : himanshu-tech101
-#### c. SauceLab Pass : Eminence17$$18
+#### 1.3 SauceLab Credentials
+           a. SauceLab Url  : https://saucelabs.com/beta/login
+           b. SauceLab User : himanshu-tech101
+           c. SauceLab Pass : Eminence17$$18
 
 ### Important Point 2: If you want to change the remote device on which to execute the test 
-         Change the desiredcapability configuration in src\resources\config\desiredcapabilities\capability.xml under <sauce> ... </sauce>
-         You may refer to https://wiki.saucelabs.com/display/DOCS/Platform+Configurator#/
+        a. Change the desiredcapability configuration in src\resources\config\desiredcapabilities\capability.xml under <sauce> ... </sauce>
+        b. You may refer to https://wiki.saucelabs.com/display/DOCS/Platform+Configurator#/
        
           
