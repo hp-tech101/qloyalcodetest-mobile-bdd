@@ -33,9 +33,9 @@
         a. Change the desiredcapability configuration in src\resources\config\desiredcapabilities\capability.xml under <sauce> ... </sauce>
         b. You may refer to https://wiki.saucelabs.com/display/DOCS/Platform+Configurator#/
        
-## =========================================================== <br/> 
+## ================================================= <br/> 
 ### OPTION 2: How to execute the test on Local setup (WINDOWS) <br/>
-## =========================================================== <br/>
+## ================================================= <br/>
 
 #### 1. On command prompt: git clone git@github.com:hp-tech101/qloyalcodetest-mobile-bdd.git <br/>
 #### 2. Enter Passphrase: Success17$$18 <br/>
