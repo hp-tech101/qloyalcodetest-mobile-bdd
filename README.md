@@ -30,7 +30,7 @@
            c. SauceLab Pass : Eminence17$$18
 
 ### Important Point 2: To change the remote device on which to execute the test 
-        a. Change the desiredcapability configuration in src\resources\config\desiredcapabilities\capability.xml under <sauce> ... </sauce>
+        a. Change the desiredcapability configuration in src/resources/config/desiredcapabilities/capability.xml under <sauce> ... </sauce>
         b. You may refer to https://wiki.saucelabs.com/display/DOCS/Platform+Configurator#/
        
 ## ================================================= <br/> 
@@ -62,5 +62,11 @@
          a. Start the virtual device (configured in 6.b.) before executing the test 
          b. mvn clean test
          
-                
-           
+#### 8. Reports <br/>
+       a. HTML Report is generated in the project folder under src/artefacts/htmlreports/index.html 
+       b. Test Execution log file is generated in the project folder under src/artefacts/logs/TestExecution.logs 
+       c. appium server log src/artefacts/serverlogs/appium_server_local.log
+
+### Important Point 1: To change the remote device on which to execute the test 
+        a. Change the desiredcapability configuration in src/resources/config/desiredcapabilities/capability.xml under <local> ... </local>
+        b. You may refer to https://wiki.saucelabs.com/display/DOCS/Platform+Configurator#/        
