@@ -33,9 +33,9 @@
         a. Change the desiredcapability configuration in src\resources\config\desiredcapabilities\capability.xml under <sauce> ... </sauce>
         b. You may refer to https://wiki.saucelabs.com/display/DOCS/Platform+Configurator#/
        
-## ================================================= <br/> 
-### OPTION 2: How to execute the test on Local setup <br/>
-## ================================================= <br/>
+## =========================================================== <br/> 
+### OPTION 2: How to execute the test on Local setup (WINDOWS) <br/>
+## =========================================================== <br/>
 
 #### 1. On command prompt: git clone git@github.com:hp-tech101/qloyalcodetest-mobile-bdd.git <br/>
 #### 2. Enter Passphrase: Success17$$18 <br/>
@@ -43,13 +43,24 @@
 #### 4. Execute following command in that order: <br/>
        a. command 1> mvn clean 
        b. command 2> mvn compile 
+#### 5. Prerequisites:
+       a. Node is installed. NODE_HOME environment variable is configured. 
+              - Instruction on how to install and setup http://testpyramid.com.au/install-verify-node-js-npm-windows-10-step-step-guide/
+       b. Appium server is installed and file "./AppData/Roaming/npm/node_modules/appium/build/lib/main.js" is present under your "user directory". 
+              - To check your "user directory", go to command prompt and type the following command:
+                        echo %userprofile%
+       c. Android Virtual Device is created. Use the name of the virtual device in 6.b 
        
-#### 5. Make the following changes in the project:
+#### 6. Make the following changes in the project:
 ##### a. Update src/resources/config/env_config.properties to set the current execution environment to localhost as follows:
                 currentEnv=local
 ##### b. Update src/resources/config/desiredcapabilities/capability.xml to point to Android Virtual Device on which to run the test:
                 <deviceName>Nexus5X</deviceName> 
                 Note: deviceName tag to be updated under <local> .... </local>
-                
+
+#### 7. Execute the tests
+         a. Start the virtual device (configured in 6.b.) before executing the test 
+         b. mvn clean test
+         
                 
            
