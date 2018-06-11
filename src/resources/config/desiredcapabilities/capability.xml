@@ -1,0 +1,18 @@
+<?xml version = "1.0"?>
+<capability>
+<sauce>
+    <appiumVersion>1.8.0</appiumVersion>
+    <deviceName>Android GoogleAPI Emulator</deviceName>
+    <deviceOrientation>portrait</deviceOrientation>
+    <browerName></browerName>
+    <platformVersion>7.1</platformVersion>
+    <platformName>Android</platformName>
+    <app>sauce-storage:fitbit_v2.6.0.apk</app>
+    <appWaitActivity>com.fitbit.*</appWaitActivity>
+</sauce>
+<local>
+    <deviceName>qloyalcodetest-AVD</deviceName>
+    <app>./src/resources/apk/fitbit_v2.6.0.apk</app>
+    <appWaitActivity>com.fitbit.*</appWaitActivity>
+</local>
+</capability>
