@@ -1,8 +1,9 @@
-# qloyalcodetest-mobile-bdd : You have following options to execute the Mobile BDD Tests using Cucumber <br/>
+# qloyalcodetest-mobile-bdd : You have following options to execute this project <br/>
 ### Option 1 : Run it on SauceLabs Cloud <br/>
 ### Option 2 : Run it locally on your machine <br/>
+### ------------------------------------------------------
 
-## OPTION 1: How to execute the test on SauceLabs Cloud <br>
+## <u>OPTION 1</u>: How to execute the test on SauceLabs Cloud <br/>
 ## Note: By default the configuration are to run on the SauceLabs Cloud
 
 ### 1. On command prompt: git clone git@github.com:hp-tech101/qloyalcodetest-mobile-bdd.git <br/>
